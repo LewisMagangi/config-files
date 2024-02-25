@@ -15,3 +15,8 @@ if [ -f ~/.bashaliases ]; then
 fi
 
 # restart your terminal or run source ~/.bash_aliases to load your aliases.
+
+# Restart the shell
+exec bash
+
+#Ensure once you update this you update the ~/.bash_aliases file
