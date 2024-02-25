@@ -9,3 +9,9 @@ alias hash='cd Dynamic_Cryptosuite/Hash_Functions'
 alias keygen='cd Dynamic_Cryptosuite/Keys_Establishment'
 alias randnogen='cd Dynamic_Cryptosuite/Random_No_Generators'
 alias passhash='cd Dynamic_Cryptosuite/Password_Hashing'
+
+if [ -f ~/.bashaliases ]; then
+. ~/.bash_aliases
+fi
+
+# restart your terminal or run source ~/.bash_aliases to load your aliases.
