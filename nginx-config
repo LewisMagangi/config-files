@@ -1,0 +1,18 @@
+#!/bin/env bash
+
+# Update package index
+sudo apt update
+
+# List of additional packages to install
+packages=('emacs' 'nano' 'net-tools') # Add other packages you want to install here
+
+# Install additional packages
+for pkg in "${packages[@]}"; do
+    if apt-cache search "$pkg" >/dev/null; then
+        sudo apt install -y "$pkg"
+    else
+        echo "Error: Unable to locate package $pkg"
+    fi
+done
+
+echo "Installation complete."
