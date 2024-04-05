@@ -21,6 +21,7 @@ alias networking_basics_2='cd alx-system_engineering-devops/0x08-networking_basi
 alias configuration_management='cd alx-system_engineering-devops/0x0A-configuration_management'
 alias secureshell='cd alx-system_engineering-devops/0x0B-ssh'
 alias loadbalancer='cd alx-system_engineering-devops/0x0F-load_balancer'
+alias ssl='cd alx-system_engineering-devops/0x10-https_ssl'
 
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
