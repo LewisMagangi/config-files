@@ -22,6 +22,8 @@ alias configuration_management='cd alx-system_engineering-devops/0x0A-configurat
 alias secureshell='cd alx-system_engineering-devops/0x0B-ssh'
 alias loadbalancer='cd alx-system_engineering-devops/0x0F-load_balancer'
 alias ssl='cd alx-system_engineering-devops/0x10-https_ssl'
+alias api='cd alx-system_engineering-devops/0x16-api_advanced'
+alias basic='cd alx-backend-javascript/0x00-ES6_basic'
 
 if [ -f ~/.bash_aliases ]; then
 . ~/.bash_aliases
